@@ -121,7 +121,7 @@ header .menu-desktop nav ul li a {
 
 .menu-desktop nav a:hover {
     transform: scale(1.08);
-    color: rgb(117, 104, 104);
+    color: #000;
 
 }
 
@@ -174,7 +174,7 @@ header .btn-menu-mob .line-menumob-2.ativo2 {
 header .menu-mobile{
     width: 0;
     height: 0;
-    background-color: #00000000;
+    background-color: #000;
     position: absolute;
     top: 0;
     right: 0;
@@ -353,7 +353,7 @@ section.contato {
 }
 
 .contato .icons-contato button i {
-    font-size: 18px;
+    font-size: 17px;
 
 }
 
@@ -364,7 +364,7 @@ section.contato {
 .contato .icons-contato button:hover i,
 .contato .icons-contato button:hover p {
     color: #fff;
-    font-size: 21px;
+    font-size: 18px;
 }
 
 /* estilos das sessão hoteis */
@@ -440,7 +440,7 @@ section.hoteis {
     background-color: transparent;
     border: 2px solid #fcf8f8;
     cursor: pointer;
-    transition: .8s;
+    transition: .4s;
 
 
 }
@@ -536,6 +536,7 @@ footer .top-footer button:hover {
     background-color: #fff;
     color: #000;
     border: #1db302;
+    font-size: 16px;
 }
 
 footer .top-footer button:active {

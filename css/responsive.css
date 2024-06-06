@@ -65,6 +65,7 @@
 
     .contato .icons-contato button {
         width: 100%;
+        align-items: center;
     }
 
     .contato .icons-contato p {
